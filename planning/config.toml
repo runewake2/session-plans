@@ -1,3 +1,5 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Planned Reactor Content'
+minify = true
+publishDir = '../generated'
