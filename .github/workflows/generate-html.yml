@@ -19,7 +19,7 @@ jobs:
         hugo-version: '0.88.0'
     - name: Generate Files
       run: |
-        hugo --cleanDestinationDir -s planning
+        hugo -s planning
     # Open PR and submit modified pages
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3

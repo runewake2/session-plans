@@ -3,3 +3,6 @@ languageCode = 'en-us'
 title = 'Planned Reactor Content'
 minify = true
 publishDir = '../generated'
+cleanDestinationDir = true
+disableKinds = ['home','sitemap','taxonomy']
+ignoreErrors = ["error-disable-taxonomy"]
