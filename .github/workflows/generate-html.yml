@@ -19,6 +19,7 @@ jobs:
         hugo-version: '0.88.0'
     - name: Generate Files
       run: |
+        rm -rf generated
         hugo -s planning
     # Open PR and submit modified pages
     - name: Create Pull Request
