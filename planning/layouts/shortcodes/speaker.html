@@ -1,0 +1,5 @@
+{{ if .IsNamedParams }}
+  {{ $speaker := index $.Site.Data.speakers $.Params.name }}
+  <p><strong>{{ $speaker.name }}</strong> - <i>{{ $speaker.title }}, {{ $speaker.company }}</i></p>
+  {{ $speaker.bio | markdownify }}
+{{ end }}
