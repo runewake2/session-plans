@@ -22,5 +22,5 @@ This Halloween lets connect and add some pumpkin spiced IoT to our holiday decor
 
 ## Speakers: 
 
-{{< speaker name="samwronski" >}}
 {{< speaker name="jimbennett" >}}
+{{< speaker name="samwronski" >}}
